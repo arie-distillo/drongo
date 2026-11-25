@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drongo-geo"
+version = "0.1.0"
+description = "Direct georeferencing for drone video: from flight telemetry to where every pixel is on the ground"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Arie Genkin"}]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+keywords = ["drone", "uav", "georeferencing", "photogrammetry", "telemetry", "dji", "computer-vision", "gis"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: GIS",
+  "Topic :: Scientific/Engineering :: Image Processing",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/arie-distillo/drongo"
+Documentation = "https://github.com/arie-distillo/drongo/tree/main/docs"
+Issues = "https://github.com/arie-distillo/drongo/issues"
+Changelog = "https://github.com/arie-distillo/drongo/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+cv = ["opencv-python>=4.8"]
+testbed = ["opencv-python>=4.8", "pytest>=7", "matplotlib>=3.7", "pyproj>=3.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+drongo = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["testbed/tests"]
+pythonpath = ["src", "."]
+markers = [
+  "slow: end-to-end synthetic video tests",
+]

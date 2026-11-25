@@ -1,0 +1,35 @@
+name: Bug report
+description: Something gives a wrong result, an error, or a crash
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations: {required: true}
+  - type: textarea
+    id: repro
+    attributes:
+      label: Code or command to reproduce
+      render: python
+  - type: input
+    id: drone
+    attributes:
+      label: Drone model and firmware
+      placeholder: e.g. Mavic 3 Enterprise, v07.01
+  - type: dropdown
+    id: telemetry
+    attributes:
+      label: Telemetry source
+      options: [SRT sidecar, Embedded in MP4/MOV, Live packets, Own reader, Not sure]
+  - type: textarea
+    id: diag
+    attributes:
+      label: Diagnostics output
+      description: The `diagnostics` list from open_telemetry, or the console output of run_video
+      render: text
+  - type: input
+    id: env
+    attributes:
+      label: drongo version, Python version, OS
+    validations: {required: true}

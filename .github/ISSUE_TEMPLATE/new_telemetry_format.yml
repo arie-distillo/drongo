@@ -1,0 +1,31 @@
+name: Support a drone or telemetry format
+description: Footage from a drone that drongo cannot read (or reads wrongly)
+labels: [telemetry]
+body:
+  - type: input
+    id: drone
+    attributes:
+      label: Drone model and firmware
+    validations: {required: true}
+  - type: dropdown
+    id: source
+    attributes:
+      label: Where is the telemetry?
+      options: [SRT sidecar, Embedded in MP4/MOV, Separate flight log, Live downlink, Not sure]
+  - type: textarea
+    id: diag
+    attributes:
+      label: Console output of `python -m testbed.harness.run_video --video <clip> --out report`
+      render: text
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample
+      description: A few SRT blocks, or 5 raw packets as JSON (see CONTRIBUTING.md). Shift coordinates if needed.
+      render: text
+  - type: checkboxes
+    id: share
+    attributes:
+      label: Sharing
+      options:
+        - label: I can share a short clip under a license that allows it to be used as a test fixture
