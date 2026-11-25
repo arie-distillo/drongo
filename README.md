@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.svg" alt="drongo" width="140">
+  <img src="https://raw.githubusercontent.com/arie-distillo/drongo/main/docs/assets/logo.svg" alt="drongo" width="140">
 </p>
 
 <h1 align="center">drongo</h1>
@@ -255,7 +255,7 @@ python examples/stabilise.py clip.mp4 stabilised.mp4 --camera equiv_24mm --step 
 
 A `TelemetryTrack` holds pose samples and interpolates between them. A `TelemetryPoseProvider` turns
 a time into a `FrameGeometry`, an immutable model of the camera for that frame; every query is a
-method on it and is vectorised. More in [docs/concepts.md](docs/concepts.md).
+method on it and is vectorised. More in [docs/concepts.md](https://github.com/arie-distillo/drongo/blob/main/docs/concepts.md).
 
 ## Supported telemetry
 
@@ -264,10 +264,10 @@ method on it and is vectorised. More in [docs/concepts.md](docs/concepts.md).
 | DJI SRT subtitle sidecar | `DjiSrtReader` | All known layouts (Mini/Air; Mavic/Air 2S, both gimbal-field layouts; FPV/Avata). Found next to the video automatically |
 | DJI metadata embedded in MP4/MOV | `DjiEmbeddedReader` | Verified on Mavic 3 Enterprise; angle encoding detected per file |
 | DJI packets from a live feed | `DjiPacketDecoder` | Same format, one packet at a time; `iter_dji_packets(path)` replays a recording |
-| Anything else | your class with `can_read` / `read` | Pass it to `open_telemetry(..., readers=[...])`; see [docs/telemetry.md](docs/telemetry.md) |
+| Anything else | your class with `can_read` / `read` | Pass it to `open_telemetry(..., readers=[...])`; see [docs/telemetry.md](https://github.com/arie-distillo/drongo/blob/main/docs/telemetry.md) |
 
 Have footage from another drone? A short clip with its telemetry is the most useful contribution
-you can make &mdash; see [CONTRIBUTING.md](CONTRIBUTING.md).
+you can make &mdash; see [CONTRIBUTING.md](https://github.com/arie-distillo/drongo/blob/main/CONTRIBUTING.md).
 
 ## Accuracy and limits
 
@@ -279,7 +279,7 @@ terrain 10 m above the takeoff point is a 12% scale error.
 
 Release 0.x assumes flat ground: buildings and terrain relief are not modelled, so points above the
 ground need their height (`h_m`), and footprints over tall structures are approximate.
-Details and a full error budget: [docs/accuracy.md](docs/accuracy.md).
+Details and a full error budget: [docs/accuracy.md](https://github.com/arie-distillo/drongo/blob/main/docs/accuracy.md).
 
 ## Check a clip before you trust it
 
@@ -291,7 +291,7 @@ Open `report/report.html`: telemetry plots and sanity checks, the difference bet
 predicted from telemetry and measured from the video, the telemetry clock offset when the flight
 makes it measurable, and frames draped on satellite imagery. If the draped frames line up with the
 imagery, position, heading and lens are right. How to read every part:
-[docs/diagnostics.md](docs/diagnostics.md).
+[docs/diagnostics.md](https://github.com/arie-distillo/drongo/blob/main/docs/diagnostics.md).
 
 ## Performance
 
@@ -310,28 +310,28 @@ Measured on a laptop CPU, single thread, 4K frames:
 drongo is **pre-1.0**: the API may still change between minor versions. Planned for 1.0: plugin
 registration of readers, a frozen public API, and published sample clips per supported drone.
 After 1.0: MISB KLV and CSV readers, a terrain (DEM) ground model, GeoTIFF output, lens and
-heading-bias estimation from video. See [CHANGELOG.md](CHANGELOG.md).
+heading-bias estimation from video. See [CHANGELOG.md](https://github.com/arie-distillo/drongo/blob/main/CHANGELOG.md).
 
 ## Documentation
 
 | | |
 |---|---|
-| [docs/concepts.md](docs/concepts.md) | Coordinate frames, camera model, how a pixel becomes a coordinate |
-| [docs/telemetry.md](docs/telemetry.md) | Formats, live streams, clock offset, writing your own reader |
-| [docs/diagnostics.md](docs/diagnostics.md) | The clip report, the full check, how to read the numbers |
-| [docs/accuracy.md](docs/accuracy.md) | Error budget, limits, what the checks can and cannot see |
-| [docs/api.md](docs/api.md) | Public API reference |
-| [docs/testing.md](docs/testing.md) | The test suite, what each layer proves, running it on your clips |
+| [docs/concepts.md](https://github.com/arie-distillo/drongo/blob/main/docs/concepts.md) | Coordinate frames, camera model, how a pixel becomes a coordinate |
+| [docs/telemetry.md](https://github.com/arie-distillo/drongo/blob/main/docs/telemetry.md) | Formats, live streams, clock offset, writing your own reader |
+| [docs/diagnostics.md](https://github.com/arie-distillo/drongo/blob/main/docs/diagnostics.md) | The clip report, the full check, how to read the numbers |
+| [docs/accuracy.md](https://github.com/arie-distillo/drongo/blob/main/docs/accuracy.md) | Error budget, limits, what the checks can and cannot see |
+| [docs/api.md](https://github.com/arie-distillo/drongo/blob/main/docs/api.md) | Public API reference |
+| [docs/testing.md](https://github.com/arie-distillo/drongo/blob/main/docs/testing.md) | The test suite, what each layer proves, running it on your clips |
 
 ## Contributing
 
 Bug reports, footage from new drones and pull requests are welcome. Start with
-[CONTRIBUTING.md](CONTRIBUTING.md); by participating you agree to the
-[Code of Conduct](CODE_OF_CONDUCT.md). Security issues: see [SECURITY.md](SECURITY.md).
+[CONTRIBUTING.md](https://github.com/arie-distillo/drongo/blob/main/CONTRIBUTING.md); by participating you agree to the
+[Code of Conduct](https://github.com/arie-distillo/drongo/blob/main/CODE_OF_CONDUCT.md). Security issues: see [SECURITY.md](https://github.com/arie-distillo/drongo/blob/main/SECURITY.md).
 
 ## License and citation
 
-Apache License 2.0 &mdash; see [LICENSE](LICENSE). If drongo helps your research, please cite it
+Apache License 2.0 &mdash; see [LICENSE](https://github.com/arie-distillo/drongo/blob/main/LICENSE). If drongo helps your research, please cite it
 using [CITATION.cff](CITATION.cff).
 
 *The drongo is a small, agile bird that hunts insects on the wing from a high perch &mdash; it
