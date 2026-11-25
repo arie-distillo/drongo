@@ -5,6 +5,18 @@ and the project uses [Semantic Versioning](https://semver.org/) (pre-1.0: minor 
 
 ## [Unreleased]
 
+### Added
+- Demo clip generator (`python -m testbed.synth.demo`): procedural nature and urban terrains,
+  realistic survey / orbit / cruise / hover-pan flights, 3D buildings, trees and cars with sun
+  shadows, colour rendering with sky and haze,
+  H.264 output with an SRT sidecar or embedded DJI telemetry, and a ground-truth file per clip.
+- `testbed.synth.mp4meta.add_meta_track` / `embed_telemetry`: add a DJI metadata track to an
+  existing video MP4.
+
+### Fixed
+- `testbed/synth/` was excluded by `.gitignore`, so the synthetic-data package the tests import was
+  missing from the repository.
+
 ## [0.1.0] - 2026-11-24
 
 ### Added

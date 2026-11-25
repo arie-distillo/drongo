@@ -36,7 +36,7 @@ Changelog = "https://github.com/arie-distillo/drongo/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 cv = ["opencv-python>=4.8"]
-testbed = ["opencv-python>=4.8", "pytest>=7", "matplotlib>=3.7", "pyproj>=3.5"]
+testbed = ["opencv-python>=4.8", "pytest>=7", "matplotlib>=3.7", "pyproj>=3.5", "imageio-ffmpeg>=0.4.9"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

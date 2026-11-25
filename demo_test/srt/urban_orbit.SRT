@@ -1,0 +1,749 @@
+1
+00:00:00,000 --> 00:00:00,033
+<font size="28">FrameCnt: 1, DiffTime: 33ms
+[latitude: 31.7674860] [longitude: 35.2136335] [rel_alt: 59.707 abs_alt: 109.707] [gb_yaw: 5.9 gb_pitch: -33.5 gb_roll: -0.0] </font>
+
+2
+00:00:00,033 --> 00:00:00,066
+<font size="28">FrameCnt: 2, DiffTime: 33ms
+[latitude: 31.7674897] [longitude: 35.2136337] [rel_alt: 59.752 abs_alt: 109.752] [gb_yaw: 5.9 gb_pitch: -33.6 gb_roll: -0.1] </font>
+
+3
+00:00:00,067 --> 00:00:00,100
+<font size="28">FrameCnt: 3, DiffTime: 33ms
+[latitude: 31.7674890] [longitude: 35.2136326] [rel_alt: 59.777 abs_alt: 109.777] [gb_yaw: 5.7 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+4
+00:00:00,100 --> 00:00:00,133
+<font size="28">FrameCnt: 4, DiffTime: 33ms
+[latitude: 31.7674831] [longitude: 35.2136355] [rel_alt: 59.742 abs_alt: 109.742] [gb_yaw: 5.5 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+5
+00:00:00,133 --> 00:00:00,166
+<font size="28">FrameCnt: 5, DiffTime: 33ms
+[latitude: 31.7674875] [longitude: 35.2136391] [rel_alt: 59.858 abs_alt: 109.858] [gb_yaw: 5.7 gb_pitch: -33.6 gb_roll: -0.1] </font>
+
+6
+00:00:00,167 --> 00:00:00,200
+<font size="28">FrameCnt: 6, DiffTime: 33ms
+[latitude: 31.7674906] [longitude: 35.2136276] [rel_alt: 59.734 abs_alt: 109.734] [gb_yaw: 5.8 gb_pitch: -33.9 gb_roll: -0.1] </font>
+
+7
+00:00:00,200 --> 00:00:00,233
+<font size="28">FrameCnt: 7, DiffTime: 33ms
+[latitude: 31.7674899] [longitude: 35.2136325] [rel_alt: 59.871 abs_alt: 109.871] [gb_yaw: 5.8 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+8
+00:00:00,233 --> 00:00:00,266
+<font size="28">FrameCnt: 8, DiffTime: 33ms
+[latitude: 31.7674917] [longitude: 35.2136308] [rel_alt: 59.715 abs_alt: 109.715] [gb_yaw: 5.8 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+9
+00:00:00,267 --> 00:00:00,300
+<font size="28">FrameCnt: 9, DiffTime: 33ms
+[latitude: 31.7674889] [longitude: 35.2136300] [rel_alt: 59.734 abs_alt: 109.734] [gb_yaw: 5.8 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+10
+00:00:00,300 --> 00:00:00,333
+<font size="28">FrameCnt: 10, DiffTime: 33ms
+[latitude: 31.7674904] [longitude: 35.2136319] [rel_alt: 59.868 abs_alt: 109.868] [gb_yaw: 5.9 gb_pitch: -33.9 gb_roll: 0.0] </font>
+
+11
+00:00:00,333 --> 00:00:00,366
+<font size="28">FrameCnt: 11, DiffTime: 33ms
+[latitude: 31.7674916] [longitude: 35.2136316] [rel_alt: 59.818 abs_alt: 109.818] [gb_yaw: 5.7 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+12
+00:00:00,367 --> 00:00:00,400
+<font size="28">FrameCnt: 12, DiffTime: 33ms
+[latitude: 31.7674916] [longitude: 35.2136320] [rel_alt: 59.744 abs_alt: 109.744] [gb_yaw: 5.7 gb_pitch: -33.9 gb_roll: 0.0] </font>
+
+13
+00:00:00,400 --> 00:00:00,433
+<font size="28">FrameCnt: 13, DiffTime: 33ms
+[latitude: 31.7674898] [longitude: 35.2136320] [rel_alt: 59.962 abs_alt: 109.962] [gb_yaw: 5.8 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+14
+00:00:00,433 --> 00:00:00,466
+<font size="28">FrameCnt: 14, DiffTime: 33ms
+[latitude: 31.7674926] [longitude: 35.2136334] [rel_alt: 59.889 abs_alt: 109.889] [gb_yaw: 5.4 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+15
+00:00:00,467 --> 00:00:00,500
+<font size="28">FrameCnt: 15, DiffTime: 33ms
+[latitude: 31.7674923] [longitude: 35.2136315] [rel_alt: 60.018 abs_alt: 110.018] [gb_yaw: 5.7 gb_pitch: -33.5 gb_roll: 0.1] </font>
+
+16
+00:00:00,500 --> 00:00:00,533
+<font size="28">FrameCnt: 16, DiffTime: 33ms
+[latitude: 31.7674943] [longitude: 35.2136291] [rel_alt: 59.922 abs_alt: 109.922] [gb_yaw: 5.6 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+17
+00:00:00,533 --> 00:00:00,566
+<font size="28">FrameCnt: 17, DiffTime: 33ms
+[latitude: 31.7674900] [longitude: 35.2136341] [rel_alt: 59.816 abs_alt: 109.816] [gb_yaw: 5.5 gb_pitch: -33.6 gb_roll: 0.1] </font>
+
+18
+00:00:00,567 --> 00:00:00,600
+<font size="28">FrameCnt: 18, DiffTime: 33ms
+[latitude: 31.7674840] [longitude: 35.2136297] [rel_alt: 59.830 abs_alt: 109.830] [gb_yaw: 5.7 gb_pitch: -33.4 gb_roll: 0.1] </font>
+
+19
+00:00:00,600 --> 00:00:00,633
+<font size="28">FrameCnt: 19, DiffTime: 33ms
+[latitude: 31.7674896] [longitude: 35.2136313] [rel_alt: 59.901 abs_alt: 109.901] [gb_yaw: 5.7 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+20
+00:00:00,633 --> 00:00:00,666
+<font size="28">FrameCnt: 20, DiffTime: 33ms
+[latitude: 31.7674901] [longitude: 35.2136316] [rel_alt: 59.841 abs_alt: 109.841] [gb_yaw: 5.7 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+21
+00:00:00,667 --> 00:00:00,700
+<font size="28">FrameCnt: 21, DiffTime: 33ms
+[latitude: 31.7674916] [longitude: 35.2136337] [rel_alt: 59.942 abs_alt: 109.942] [gb_yaw: 5.9 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+22
+00:00:00,700 --> 00:00:00,733
+<font size="28">FrameCnt: 22, DiffTime: 33ms
+[latitude: 31.7674941] [longitude: 35.2136307] [rel_alt: 59.886 abs_alt: 109.886] [gb_yaw: 5.7 gb_pitch: -33.8 gb_roll: 0.1] </font>
+
+23
+00:00:00,733 --> 00:00:00,766
+<font size="28">FrameCnt: 23, DiffTime: 33ms
+[latitude: 31.7674932] [longitude: 35.2136306] [rel_alt: 60.077 abs_alt: 110.077] [gb_yaw: 5.3 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+24
+00:00:00,767 --> 00:00:00,800
+<font size="28">FrameCnt: 24, DiffTime: 33ms
+[latitude: 31.7674944] [longitude: 35.2136352] [rel_alt: 60.019 abs_alt: 110.019] [gb_yaw: 5.7 gb_pitch: -33.5 gb_roll: 0.0] </font>
+
+25
+00:00:00,800 --> 00:00:00,833
+<font size="28">FrameCnt: 25, DiffTime: 33ms
+[latitude: 31.7674927] [longitude: 35.2136342] [rel_alt: 59.842 abs_alt: 109.842] [gb_yaw: 5.5 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+26
+00:00:00,833 --> 00:00:00,866
+<font size="28">FrameCnt: 26, DiffTime: 33ms
+[latitude: 31.7674940] [longitude: 35.2136314] [rel_alt: 60.037 abs_alt: 110.037] [gb_yaw: 5.8 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+27
+00:00:00,867 --> 00:00:00,900
+<font size="28">FrameCnt: 27, DiffTime: 33ms
+[latitude: 31.7674906] [longitude: 35.2136377] [rel_alt: 59.876 abs_alt: 109.876] [gb_yaw: 5.5 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+28
+00:00:00,900 --> 00:00:00,933
+<font size="28">FrameCnt: 28, DiffTime: 33ms
+[latitude: 31.7674962] [longitude: 35.2136392] [rel_alt: 59.880 abs_alt: 109.880] [gb_yaw: 5.1 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+29
+00:00:00,933 --> 00:00:00,966
+<font size="28">FrameCnt: 29, DiffTime: 33ms
+[latitude: 31.7674908] [longitude: 35.2136380] [rel_alt: 59.945 abs_alt: 109.945] [gb_yaw: 5.7 gb_pitch: -33.5 gb_roll: 0.0] </font>
+
+30
+00:00:00,967 --> 00:00:01,000
+<font size="28">FrameCnt: 30, DiffTime: 33ms
+[latitude: 31.7674900] [longitude: 35.2136368] [rel_alt: 60.032 abs_alt: 110.032] [gb_yaw: 5.6 gb_pitch: -33.8 gb_roll: 0.0] </font>
+
+31
+00:00:01,000 --> 00:00:01,033
+<font size="28">FrameCnt: 31, DiffTime: 33ms
+[latitude: 31.7674917] [longitude: 35.2136367] [rel_alt: 60.028 abs_alt: 110.028] [gb_yaw: 5.3 gb_pitch: -33.9 gb_roll: 0.0] </font>
+
+32
+00:00:01,033 --> 00:00:01,066
+<font size="28">FrameCnt: 32, DiffTime: 33ms
+[latitude: 31.7674923] [longitude: 35.2136379] [rel_alt: 60.068 abs_alt: 110.068] [gb_yaw: 5.4 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+33
+00:00:01,067 --> 00:00:01,100
+<font size="28">FrameCnt: 33, DiffTime: 33ms
+[latitude: 31.7674944] [longitude: 35.2136338] [rel_alt: 60.126 abs_alt: 110.126] [gb_yaw: 5.2 gb_pitch: -33.9 gb_roll: -0.1] </font>
+
+34
+00:00:01,100 --> 00:00:01,133
+<font size="28">FrameCnt: 34, DiffTime: 33ms
+[latitude: 31.7674940] [longitude: 35.2136320] [rel_alt: 60.176 abs_alt: 110.176] [gb_yaw: 5.5 gb_pitch: -33.9 gb_roll: -0.1] </font>
+
+35
+00:00:01,133 --> 00:00:01,166
+<font size="28">FrameCnt: 35, DiffTime: 33ms
+[latitude: 31.7674919] [longitude: 35.2136388] [rel_alt: 60.289 abs_alt: 110.289] [gb_yaw: 5.5 gb_pitch: -33.9 gb_roll: -0.1] </font>
+
+36
+00:00:01,167 --> 00:00:01,200
+<font size="28">FrameCnt: 36, DiffTime: 33ms
+[latitude: 31.7674907] [longitude: 35.2136405] [rel_alt: 60.110 abs_alt: 110.110] [gb_yaw: 5.4 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+37
+00:00:01,200 --> 00:00:01,233
+<font size="28">FrameCnt: 37, DiffTime: 33ms
+[latitude: 31.7674902] [longitude: 35.2136413] [rel_alt: 60.168 abs_alt: 110.168] [gb_yaw: 5.2 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+38
+00:00:01,233 --> 00:00:01,266
+<font size="28">FrameCnt: 38, DiffTime: 33ms
+[latitude: 31.7674863] [longitude: 35.2136415] [rel_alt: 59.995 abs_alt: 109.995] [gb_yaw: 5.1 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+39
+00:00:01,267 --> 00:00:01,300
+<font size="28">FrameCnt: 39, DiffTime: 33ms
+[latitude: 31.7674887] [longitude: 35.2136429] [rel_alt: 59.892 abs_alt: 109.892] [gb_yaw: 5.2 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+40
+00:00:01,300 --> 00:00:01,333
+<font size="28">FrameCnt: 40, DiffTime: 33ms
+[latitude: 31.7674932] [longitude: 35.2136401] [rel_alt: 60.207 abs_alt: 110.207] [gb_yaw: 5.2 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+41
+00:00:01,333 --> 00:00:01,366
+<font size="28">FrameCnt: 41, DiffTime: 33ms
+[latitude: 31.7674921] [longitude: 35.2136426] [rel_alt: 60.170 abs_alt: 110.170] [gb_yaw: 5.1 gb_pitch: -33.5 gb_roll: -0.0] </font>
+
+42
+00:00:01,367 --> 00:00:01,400
+<font size="28">FrameCnt: 42, DiffTime: 33ms
+[latitude: 31.7674878] [longitude: 35.2136430] [rel_alt: 60.234 abs_alt: 110.234] [gb_yaw: 5.3 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+43
+00:00:01,400 --> 00:00:01,433
+<font size="28">FrameCnt: 43, DiffTime: 33ms
+[latitude: 31.7674922] [longitude: 35.2136419] [rel_alt: 60.102 abs_alt: 110.102] [gb_yaw: 5.4 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+44
+00:00:01,433 --> 00:00:01,466
+<font size="28">FrameCnt: 44, DiffTime: 33ms
+[latitude: 31.7674906] [longitude: 35.2136427] [rel_alt: 60.166 abs_alt: 110.166] [gb_yaw: 5.1 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+45
+00:00:01,467 --> 00:00:01,500
+<font size="28">FrameCnt: 45, DiffTime: 33ms
+[latitude: 31.7674947] [longitude: 35.2136448] [rel_alt: 60.133 abs_alt: 110.133] [gb_yaw: 5.0 gb_pitch: -33.9 gb_roll: 0.0] </font>
+
+46
+00:00:01,500 --> 00:00:01,533
+<font size="28">FrameCnt: 46, DiffTime: 33ms
+[latitude: 31.7674857] [longitude: 35.2136462] [rel_alt: 60.109 abs_alt: 110.109] [gb_yaw: 5.2 gb_pitch: -33.8 gb_roll: 0.0] </font>
+
+47
+00:00:01,533 --> 00:00:01,566
+<font size="28">FrameCnt: 47, DiffTime: 33ms
+[latitude: 31.7674873] [longitude: 35.2136458] [rel_alt: 60.124 abs_alt: 110.124] [gb_yaw: 4.9 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+48
+00:00:01,567 --> 00:00:01,600
+<font size="28">FrameCnt: 48, DiffTime: 33ms
+[latitude: 31.7674920] [longitude: 35.2136478] [rel_alt: 60.176 abs_alt: 110.176] [gb_yaw: 4.8 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+49
+00:00:01,600 --> 00:00:01,633
+<font size="28">FrameCnt: 49, DiffTime: 33ms
+[latitude: 31.7674923] [longitude: 35.2136416] [rel_alt: 60.050 abs_alt: 110.050] [gb_yaw: 4.9 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+50
+00:00:01,633 --> 00:00:01,666
+<font size="28">FrameCnt: 50, DiffTime: 33ms
+[latitude: 31.7674920] [longitude: 35.2136512] [rel_alt: 60.271 abs_alt: 110.271] [gb_yaw: 4.9 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+51
+00:00:01,667 --> 00:00:01,700
+<font size="28">FrameCnt: 51, DiffTime: 33ms
+[latitude: 31.7674922] [longitude: 35.2136527] [rel_alt: 60.266 abs_alt: 110.266] [gb_yaw: 5.0 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+52
+00:00:01,700 --> 00:00:01,733
+<font size="28">FrameCnt: 52, DiffTime: 33ms
+[latitude: 31.7674932] [longitude: 35.2136487] [rel_alt: 60.179 abs_alt: 110.179] [gb_yaw: 5.0 gb_pitch: -33.8 gb_roll: 0.0] </font>
+
+53
+00:00:01,733 --> 00:00:01,766
+<font size="28">FrameCnt: 53, DiffTime: 33ms
+[latitude: 31.7674887] [longitude: 35.2136533] [rel_alt: 60.396 abs_alt: 110.396] [gb_yaw: 4.8 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+54
+00:00:01,767 --> 00:00:01,800
+<font size="28">FrameCnt: 54, DiffTime: 33ms
+[latitude: 31.7674882] [longitude: 35.2136552] [rel_alt: 60.285 abs_alt: 110.285] [gb_yaw: 4.4 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+55
+00:00:01,800 --> 00:00:01,833
+<font size="28">FrameCnt: 55, DiffTime: 33ms
+[latitude: 31.7674963] [longitude: 35.2136518] [rel_alt: 60.091 abs_alt: 110.091] [gb_yaw: 4.6 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+56
+00:00:01,833 --> 00:00:01,866
+<font size="28">FrameCnt: 56, DiffTime: 33ms
+[latitude: 31.7674937] [longitude: 35.2136559] [rel_alt: 60.257 abs_alt: 110.257] [gb_yaw: 4.5 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+57
+00:00:01,867 --> 00:00:01,900
+<font size="28">FrameCnt: 57, DiffTime: 33ms
+[latitude: 31.7674875] [longitude: 35.2136525] [rel_alt: 60.091 abs_alt: 110.091] [gb_yaw: 4.6 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+58
+00:00:01,900 --> 00:00:01,933
+<font size="28">FrameCnt: 58, DiffTime: 33ms
+[latitude: 31.7674901] [longitude: 35.2136528] [rel_alt: 60.231 abs_alt: 110.231] [gb_yaw: 4.8 gb_pitch: -33.9 gb_roll: 0.0] </font>
+
+59
+00:00:01,933 --> 00:00:01,966
+<font size="28">FrameCnt: 59, DiffTime: 33ms
+[latitude: 31.7674889] [longitude: 35.2136598] [rel_alt: 60.052 abs_alt: 110.052] [gb_yaw: 4.2 gb_pitch: -33.6 gb_roll: 0.1] </font>
+
+60
+00:00:01,967 --> 00:00:02,000
+<font size="28">FrameCnt: 60, DiffTime: 33ms
+[latitude: 31.7674934] [longitude: 35.2136602] [rel_alt: 60.180 abs_alt: 110.180] [gb_yaw: 4.4 gb_pitch: -33.6 gb_roll: 0.1] </font>
+
+61
+00:00:02,000 --> 00:00:02,033
+<font size="28">FrameCnt: 61, DiffTime: 33ms
+[latitude: 31.7674928] [longitude: 35.2136572] [rel_alt: 60.264 abs_alt: 110.264] [gb_yaw: 4.5 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+62
+00:00:02,033 --> 00:00:02,066
+<font size="28">FrameCnt: 62, DiffTime: 33ms
+[latitude: 31.7674953] [longitude: 35.2136598] [rel_alt: 60.176 abs_alt: 110.176] [gb_yaw: 4.4 gb_pitch: -33.4 gb_roll: 0.0] </font>
+
+63
+00:00:02,067 --> 00:00:02,100
+<font size="28">FrameCnt: 63, DiffTime: 33ms
+[latitude: 31.7674911] [longitude: 35.2136613] [rel_alt: 60.097 abs_alt: 110.097] [gb_yaw: 4.2 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+64
+00:00:02,100 --> 00:00:02,133
+<font size="28">FrameCnt: 64, DiffTime: 33ms
+[latitude: 31.7674939] [longitude: 35.2136645] [rel_alt: 60.153 abs_alt: 110.153] [gb_yaw: 4.4 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+65
+00:00:02,133 --> 00:00:02,166
+<font size="28">FrameCnt: 65, DiffTime: 33ms
+[latitude: 31.7674918] [longitude: 35.2136647] [rel_alt: 60.063 abs_alt: 110.063] [gb_yaw: 4.2 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+66
+00:00:02,167 --> 00:00:02,200
+<font size="28">FrameCnt: 66, DiffTime: 33ms
+[latitude: 31.7674928] [longitude: 35.2136686] [rel_alt: 60.142 abs_alt: 110.142] [gb_yaw: 4.3 gb_pitch: -33.5 gb_roll: 0.0] </font>
+
+67
+00:00:02,200 --> 00:00:02,233
+<font size="28">FrameCnt: 67, DiffTime: 33ms
+[latitude: 31.7674937] [longitude: 35.2136636] [rel_alt: 60.107 abs_alt: 110.107] [gb_yaw: 4.1 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+68
+00:00:02,233 --> 00:00:02,266
+<font size="28">FrameCnt: 68, DiffTime: 33ms
+[latitude: 31.7674932] [longitude: 35.2136634] [rel_alt: 60.181 abs_alt: 110.181] [gb_yaw: 3.8 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+69
+00:00:02,267 --> 00:00:02,300
+<font size="28">FrameCnt: 69, DiffTime: 33ms
+[latitude: 31.7674915] [longitude: 35.2136693] [rel_alt: 60.211 abs_alt: 110.211] [gb_yaw: 3.9 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+70
+00:00:02,300 --> 00:00:02,333
+<font size="28">FrameCnt: 70, DiffTime: 33ms
+[latitude: 31.7674973] [longitude: 35.2136686] [rel_alt: 60.021 abs_alt: 110.021] [gb_yaw: 4.0 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+71
+00:00:02,333 --> 00:00:02,366
+<font size="28">FrameCnt: 71, DiffTime: 33ms
+[latitude: 31.7674954] [longitude: 35.2136730] [rel_alt: 60.150 abs_alt: 110.150] [gb_yaw: 3.7 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+72
+00:00:02,367 --> 00:00:02,400
+<font size="28">FrameCnt: 72, DiffTime: 33ms
+[latitude: 31.7674910] [longitude: 35.2136696] [rel_alt: 59.977 abs_alt: 109.977] [gb_yaw: 4.0 gb_pitch: -33.8 gb_roll: -0.1] </font>
+
+73
+00:00:02,400 --> 00:00:02,433
+<font size="28">FrameCnt: 73, DiffTime: 33ms
+[latitude: 31.7674970] [longitude: 35.2136673] [rel_alt: 59.944 abs_alt: 109.944] [gb_yaw: 3.7 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+74
+00:00:02,433 --> 00:00:02,466
+<font size="28">FrameCnt: 74, DiffTime: 33ms
+[latitude: 31.7674938] [longitude: 35.2136670] [rel_alt: 60.090 abs_alt: 110.090] [gb_yaw: 3.6 gb_pitch: -33.6 gb_roll: -0.1] </font>
+
+75
+00:00:02,467 --> 00:00:02,500
+<font size="28">FrameCnt: 75, DiffTime: 33ms
+[latitude: 31.7674970] [longitude: 35.2136759] [rel_alt: 60.284 abs_alt: 110.284] [gb_yaw: 3.3 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+76
+00:00:02,500 --> 00:00:02,533
+<font size="28">FrameCnt: 76, DiffTime: 33ms
+[latitude: 31.7674915] [longitude: 35.2136782] [rel_alt: 59.988 abs_alt: 109.988] [gb_yaw: 3.2 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+77
+00:00:02,533 --> 00:00:02,566
+<font size="28">FrameCnt: 77, DiffTime: 33ms
+[latitude: 31.7674924] [longitude: 35.2136757] [rel_alt: 60.154 abs_alt: 110.154] [gb_yaw: 3.4 gb_pitch: -33.5 gb_roll: -0.0] </font>
+
+78
+00:00:02,567 --> 00:00:02,600
+<font size="28">FrameCnt: 78, DiffTime: 33ms
+[latitude: 31.7674931] [longitude: 35.2136799] [rel_alt: 60.136 abs_alt: 110.136] [gb_yaw: 3.3 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+79
+00:00:02,600 --> 00:00:02,633
+<font size="28">FrameCnt: 79, DiffTime: 33ms
+[latitude: 31.7674984] [longitude: 35.2136789] [rel_alt: 59.935 abs_alt: 109.935] [gb_yaw: 3.0 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+80
+00:00:02,633 --> 00:00:02,666
+<font size="28">FrameCnt: 80, DiffTime: 33ms
+[latitude: 31.7674977] [longitude: 35.2136832] [rel_alt: 60.025 abs_alt: 110.025] [gb_yaw: 3.2 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+81
+00:00:02,667 --> 00:00:02,700
+<font size="28">FrameCnt: 81, DiffTime: 33ms
+[latitude: 31.7674985] [longitude: 35.2136834] [rel_alt: 59.973 abs_alt: 109.973] [gb_yaw: 3.1 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+82
+00:00:02,700 --> 00:00:02,733
+<font size="28">FrameCnt: 82, DiffTime: 33ms
+[latitude: 31.7674971] [longitude: 35.2136766] [rel_alt: 60.065 abs_alt: 110.065] [gb_yaw: 3.4 gb_pitch: -33.6 gb_roll: 0.1] </font>
+
+83
+00:00:02,733 --> 00:00:02,766
+<font size="28">FrameCnt: 83, DiffTime: 33ms
+[latitude: 31.7674916] [longitude: 35.2136783] [rel_alt: 60.035 abs_alt: 110.035] [gb_yaw: 2.9 gb_pitch: -33.7 gb_roll: 0.1] </font>
+
+84
+00:00:02,767 --> 00:00:02,800
+<font size="28">FrameCnt: 84, DiffTime: 33ms
+[latitude: 31.7674935] [longitude: 35.2136845] [rel_alt: 59.681 abs_alt: 109.681] [gb_yaw: 2.9 gb_pitch: -33.8 gb_roll: 0.0] </font>
+
+85
+00:00:02,800 --> 00:00:02,833
+<font size="28">FrameCnt: 85, DiffTime: 33ms
+[latitude: 31.7674944] [longitude: 35.2136765] [rel_alt: 59.794 abs_alt: 109.794] [gb_yaw: 2.6 gb_pitch: -33.8 gb_roll: 0.0] </font>
+
+86
+00:00:02,833 --> 00:00:02,866
+<font size="28">FrameCnt: 86, DiffTime: 33ms
+[latitude: 31.7674961] [longitude: 35.2136916] [rel_alt: 60.001 abs_alt: 110.001] [gb_yaw: 2.4 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+87
+00:00:02,867 --> 00:00:02,900
+<font size="28">FrameCnt: 87, DiffTime: 33ms
+[latitude: 31.7675003] [longitude: 35.2136912] [rel_alt: 59.777 abs_alt: 109.777] [gb_yaw: 2.6 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+88
+00:00:02,900 --> 00:00:02,933
+<font size="28">FrameCnt: 88, DiffTime: 33ms
+[latitude: 31.7674963] [longitude: 35.2136870] [rel_alt: 59.995 abs_alt: 109.995] [gb_yaw: 2.4 gb_pitch: -33.6 gb_roll: 0.1] </font>
+
+89
+00:00:02,933 --> 00:00:02,966
+<font size="28">FrameCnt: 89, DiffTime: 33ms
+[latitude: 31.7674979] [longitude: 35.2136952] [rel_alt: 59.864 abs_alt: 109.864] [gb_yaw: 2.8 gb_pitch: -33.5 gb_roll: 0.1] </font>
+
+90
+00:00:02,967 --> 00:00:03,000
+<font size="28">FrameCnt: 90, DiffTime: 33ms
+[latitude: 31.7674953] [longitude: 35.2136957] [rel_alt: 59.861 abs_alt: 109.861] [gb_yaw: 2.8 gb_pitch: -33.4 gb_roll: 0.1] </font>
+
+91
+00:00:03,000 --> 00:00:03,033
+<font size="28">FrameCnt: 91, DiffTime: 33ms
+[latitude: 31.7674958] [longitude: 35.2136896] [rel_alt: 59.823 abs_alt: 109.823] [gb_yaw: 2.4 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+92
+00:00:03,033 --> 00:00:03,066
+<font size="28">FrameCnt: 92, DiffTime: 33ms
+[latitude: 31.7674984] [longitude: 35.2136975] [rel_alt: 59.970 abs_alt: 109.970] [gb_yaw: 2.2 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+93
+00:00:03,067 --> 00:00:03,100
+<font size="28">FrameCnt: 93, DiffTime: 33ms
+[latitude: 31.7674922] [longitude: 35.2136926] [rel_alt: 59.865 abs_alt: 109.865] [gb_yaw: 2.0 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+94
+00:00:03,100 --> 00:00:03,133
+<font size="28">FrameCnt: 94, DiffTime: 33ms
+[latitude: 31.7674950] [longitude: 35.2136979] [rel_alt: 59.789 abs_alt: 109.789] [gb_yaw: 2.0 gb_pitch: -34.0 gb_roll: -0.1] </font>
+
+95
+00:00:03,133 --> 00:00:03,166
+<font size="28">FrameCnt: 95, DiffTime: 33ms
+[latitude: 31.7674892] [longitude: 35.2137011] [rel_alt: 59.617 abs_alt: 109.617] [gb_yaw: 2.0 gb_pitch: -33.9 gb_roll: -0.1] </font>
+
+96
+00:00:03,167 --> 00:00:03,200
+<font size="28">FrameCnt: 96, DiffTime: 33ms
+[latitude: 31.7674990] [longitude: 35.2137039] [rel_alt: 59.864 abs_alt: 109.864] [gb_yaw: 1.8 gb_pitch: -34.0 gb_roll: -0.1] </font>
+
+97
+00:00:03,200 --> 00:00:03,233
+<font size="28">FrameCnt: 97, DiffTime: 33ms
+[latitude: 31.7674960] [longitude: 35.2137075] [rel_alt: 59.717 abs_alt: 109.717] [gb_yaw: 1.6 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+98
+00:00:03,233 --> 00:00:03,266
+<font size="28">FrameCnt: 98, DiffTime: 33ms
+[latitude: 31.7674918] [longitude: 35.2137088] [rel_alt: 59.937 abs_alt: 109.937] [gb_yaw: 1.7 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+99
+00:00:03,267 --> 00:00:03,300
+<font size="28">FrameCnt: 99, DiffTime: 33ms
+[latitude: 31.7674871] [longitude: 35.2137111] [rel_alt: 59.830 abs_alt: 109.830] [gb_yaw: 1.3 gb_pitch: -33.5 gb_roll: -0.0] </font>
+
+100
+00:00:03,300 --> 00:00:03,333
+<font size="28">FrameCnt: 100, DiffTime: 33ms
+[latitude: 31.7674924] [longitude: 35.2137125] [rel_alt: 59.718 abs_alt: 109.718] [gb_yaw: 1.2 gb_pitch: -33.8 gb_roll: -0.1] </font>
+
+101
+00:00:03,333 --> 00:00:03,366
+<font size="28">FrameCnt: 101, DiffTime: 33ms
+[latitude: 31.7674887] [longitude: 35.2137009] [rel_alt: 59.706 abs_alt: 109.706] [gb_yaw: 1.3 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+102
+00:00:03,367 --> 00:00:03,400
+<font size="28">FrameCnt: 102, DiffTime: 33ms
+[latitude: 31.7674900] [longitude: 35.2137199] [rel_alt: 59.782 abs_alt: 109.782] [gb_yaw: 1.6 gb_pitch: -33.6 gb_roll: -0.1] </font>
+
+103
+00:00:03,400 --> 00:00:03,433
+<font size="28">FrameCnt: 103, DiffTime: 33ms
+[latitude: 31.7674938] [longitude: 35.2137113] [rel_alt: 59.841 abs_alt: 109.841] [gb_yaw: 1.3 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+104
+00:00:03,433 --> 00:00:03,466
+<font size="28">FrameCnt: 104, DiffTime: 33ms
+[latitude: 31.7674908] [longitude: 35.2137210] [rel_alt: 59.639 abs_alt: 109.639] [gb_yaw: 1.1 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+105
+00:00:03,467 --> 00:00:03,500
+<font size="28">FrameCnt: 105, DiffTime: 33ms
+[latitude: 31.7674934] [longitude: 35.2137241] [rel_alt: 59.614 abs_alt: 109.614] [gb_yaw: 1.2 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+106
+00:00:03,500 --> 00:00:03,533
+<font size="28">FrameCnt: 106, DiffTime: 33ms
+[latitude: 31.7674953] [longitude: 35.2137187] [rel_alt: 59.658 abs_alt: 109.658] [gb_yaw: 0.8 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+107
+00:00:03,533 --> 00:00:03,566
+<font size="28">FrameCnt: 107, DiffTime: 33ms
+[latitude: 31.7674947] [longitude: 35.2137268] [rel_alt: 59.584 abs_alt: 109.584] [gb_yaw: 1.1 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+108
+00:00:03,567 --> 00:00:03,600
+<font size="28">FrameCnt: 108, DiffTime: 33ms
+[latitude: 31.7674959] [longitude: 35.2137268] [rel_alt: 59.669 abs_alt: 109.669] [gb_yaw: 0.8 gb_pitch: -33.8 gb_roll: 0.1] </font>
+
+109
+00:00:03,600 --> 00:00:03,633
+<font size="28">FrameCnt: 109, DiffTime: 33ms
+[latitude: 31.7674925] [longitude: 35.2137278] [rel_alt: 59.716 abs_alt: 109.716] [gb_yaw: 0.5 gb_pitch: -33.8 gb_roll: 0.1] </font>
+
+110
+00:00:03,633 --> 00:00:03,666
+<font size="28">FrameCnt: 110, DiffTime: 33ms
+[latitude: 31.7674923] [longitude: 35.2137312] [rel_alt: 59.515 abs_alt: 109.515] [gb_yaw: 0.7 gb_pitch: -33.8 gb_roll: 0.1] </font>
+
+111
+00:00:03,667 --> 00:00:03,700
+<font size="28">FrameCnt: 111, DiffTime: 33ms
+[latitude: 31.7674882] [longitude: 35.2137288] [rel_alt: 59.652 abs_alt: 109.652] [gb_yaw: 0.3 gb_pitch: -33.8 gb_roll: 0.1] </font>
+
+112
+00:00:03,700 --> 00:00:03,733
+<font size="28">FrameCnt: 112, DiffTime: 33ms
+[latitude: 31.7674915] [longitude: 35.2137251] [rel_alt: 59.758 abs_alt: 109.758] [gb_yaw: 0.5 gb_pitch: -33.6 gb_roll: 0.1] </font>
+
+113
+00:00:03,733 --> 00:00:03,766
+<font size="28">FrameCnt: 113, DiffTime: 33ms
+[latitude: 31.7674946] [longitude: 35.2137286] [rel_alt: 59.558 abs_alt: 109.558] [gb_yaw: 0.1 gb_pitch: -33.4 gb_roll: 0.0] </font>
+
+114
+00:00:03,767 --> 00:00:03,800
+<font size="28">FrameCnt: 114, DiffTime: 33ms
+[latitude: 31.7674968] [longitude: 35.2137395] [rel_alt: 59.497 abs_alt: 109.497] [gb_yaw: 0.0 gb_pitch: -33.8 gb_roll: 0.0] </font>
+
+115
+00:00:03,800 --> 00:00:03,833
+<font size="28">FrameCnt: 115, DiffTime: 33ms
+[latitude: 31.7674918] [longitude: 35.2137357] [rel_alt: 59.761 abs_alt: 109.761] [gb_yaw: 359.6 gb_pitch: -33.9 gb_roll: -0.0] </font>
+
+116
+00:00:03,833 --> 00:00:03,866
+<font size="28">FrameCnt: 116, DiffTime: 33ms
+[latitude: 31.7674937] [longitude: 35.2137368] [rel_alt: 59.665 abs_alt: 109.665] [gb_yaw: 0.1 gb_pitch: -33.9 gb_roll: -0.0] </font>
+
+117
+00:00:03,867 --> 00:00:03,900
+<font size="28">FrameCnt: 117, DiffTime: 33ms
+[latitude: 31.7674919] [longitude: 35.2137417] [rel_alt: 59.600 abs_alt: 109.600] [gb_yaw: 359.6 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+118
+00:00:03,900 --> 00:00:03,933
+<font size="28">FrameCnt: 118, DiffTime: 33ms
+[latitude: 31.7674908] [longitude: 35.2137456] [rel_alt: 59.638 abs_alt: 109.638] [gb_yaw: 359.7 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+119
+00:00:03,933 --> 00:00:03,966
+<font size="28">FrameCnt: 119, DiffTime: 33ms
+[latitude: 31.7674932] [longitude: 35.2137462] [rel_alt: 59.704 abs_alt: 109.704] [gb_yaw: 359.7 gb_pitch: -33.8 gb_roll: 0.0] </font>
+
+120
+00:00:03,967 --> 00:00:04,000
+<font size="28">FrameCnt: 120, DiffTime: 33ms
+[latitude: 31.7674941] [longitude: 35.2137432] [rel_alt: 59.671 abs_alt: 109.671] [gb_yaw: 359.4 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+121
+00:00:04,000 --> 00:00:04,033
+<font size="28">FrameCnt: 121, DiffTime: 33ms
+[latitude: 31.7674963] [longitude: 35.2137493] [rel_alt: 59.777 abs_alt: 109.777] [gb_yaw: 359.4 gb_pitch: -33.5 gb_roll: -0.0] </font>
+
+122
+00:00:04,033 --> 00:00:04,066
+<font size="28">FrameCnt: 122, DiffTime: 33ms
+[latitude: 31.7674931] [longitude: 35.2137440] [rel_alt: 59.788 abs_alt: 109.788] [gb_yaw: 359.2 gb_pitch: -33.6 gb_roll: -0.1] </font>
+
+123
+00:00:04,067 --> 00:00:04,100
+<font size="28">FrameCnt: 123, DiffTime: 33ms
+[latitude: 31.7674980] [longitude: 35.2137529] [rel_alt: 60.038 abs_alt: 110.038] [gb_yaw: 359.2 gb_pitch: -33.7 gb_roll: -0.1] </font>
+
+124
+00:00:04,100 --> 00:00:04,133
+<font size="28">FrameCnt: 124, DiffTime: 33ms
+[latitude: 31.7674966] [longitude: 35.2137565] [rel_alt: 59.809 abs_alt: 109.809] [gb_yaw: 358.9 gb_pitch: -33.8 gb_roll: -0.1] </font>
+
+125
+00:00:04,133 --> 00:00:04,166
+<font size="28">FrameCnt: 125, DiffTime: 33ms
+[latitude: 31.7674920] [longitude: 35.2137612] [rel_alt: 59.689 abs_alt: 109.689] [gb_yaw: 358.6 gb_pitch: -33.8 gb_roll: -0.1] </font>
+
+126
+00:00:04,167 --> 00:00:04,200
+<font size="28">FrameCnt: 126, DiffTime: 33ms
+[latitude: 31.7674969] [longitude: 35.2137563] [rel_alt: 59.647 abs_alt: 109.647] [gb_yaw: 358.9 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+127
+00:00:04,200 --> 00:00:04,233
+<font size="28">FrameCnt: 127, DiffTime: 33ms
+[latitude: 31.7675007] [longitude: 35.2137604] [rel_alt: 59.593 abs_alt: 109.593] [gb_yaw: 358.8 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+128
+00:00:04,233 --> 00:00:04,266
+<font size="28">FrameCnt: 128, DiffTime: 33ms
+[latitude: 31.7674953] [longitude: 35.2137626] [rel_alt: 59.693 abs_alt: 109.693] [gb_yaw: 358.5 gb_pitch: -33.5 gb_roll: 0.0] </font>
+
+129
+00:00:04,267 --> 00:00:04,300
+<font size="28">FrameCnt: 129, DiffTime: 33ms
+[latitude: 31.7674924] [longitude: 35.2137689] [rel_alt: 59.590 abs_alt: 109.590] [gb_yaw: 358.3 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+130
+00:00:04,300 --> 00:00:04,333
+<font size="28">FrameCnt: 130, DiffTime: 33ms
+[latitude: 31.7674956] [longitude: 35.2137634] [rel_alt: 59.772 abs_alt: 109.772] [gb_yaw: 358.0 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+131
+00:00:04,333 --> 00:00:04,366
+<font size="28">FrameCnt: 131, DiffTime: 33ms
+[latitude: 31.7674938] [longitude: 35.2137694] [rel_alt: 59.548 abs_alt: 109.548] [gb_yaw: 358.1 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+132
+00:00:04,367 --> 00:00:04,400
+<font size="28">FrameCnt: 132, DiffTime: 33ms
+[latitude: 31.7674969] [longitude: 35.2137763] [rel_alt: 59.562 abs_alt: 109.562] [gb_yaw: 357.9 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+133
+00:00:04,400 --> 00:00:04,433
+<font size="28">FrameCnt: 133, DiffTime: 33ms
+[latitude: 31.7675012] [longitude: 35.2137739] [rel_alt: 59.671 abs_alt: 109.671] [gb_yaw: 357.8 gb_pitch: -33.8 gb_roll: -0.0] </font>
+
+134
+00:00:04,433 --> 00:00:04,466
+<font size="28">FrameCnt: 134, DiffTime: 33ms
+[latitude: 31.7674954] [longitude: 35.2137738] [rel_alt: 59.741 abs_alt: 109.741] [gb_yaw: 357.5 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+135
+00:00:04,467 --> 00:00:04,500
+<font size="28">FrameCnt: 135, DiffTime: 33ms
+[latitude: 31.7674967] [longitude: 35.2137814] [rel_alt: 59.790 abs_alt: 109.790] [gb_yaw: 357.3 gb_pitch: -33.7 gb_roll: 0.0] </font>
+
+136
+00:00:04,500 --> 00:00:04,533
+<font size="28">FrameCnt: 136, DiffTime: 33ms
+[latitude: 31.7674997] [longitude: 35.2137843] [rel_alt: 59.639 abs_alt: 109.639] [gb_yaw: 357.4 gb_pitch: -33.9 gb_roll: 0.0] </font>
+
+137
+00:00:04,533 --> 00:00:04,566
+<font size="28">FrameCnt: 137, DiffTime: 33ms
+[latitude: 31.7674993] [longitude: 35.2137858] [rel_alt: 59.625 abs_alt: 109.625] [gb_yaw: 357.2 gb_pitch: -33.5 gb_roll: 0.0] </font>
+
+138
+00:00:04,567 --> 00:00:04,600
+<font size="28">FrameCnt: 138, DiffTime: 33ms
+[latitude: 31.7674986] [longitude: 35.2137837] [rel_alt: 59.614 abs_alt: 109.614] [gb_yaw: 357.0 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+139
+00:00:04,600 --> 00:00:04,633
+<font size="28">FrameCnt: 139, DiffTime: 33ms
+[latitude: 31.7674958] [longitude: 35.2137876] [rel_alt: 59.614 abs_alt: 109.614] [gb_yaw: 356.8 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+140
+00:00:04,633 --> 00:00:04,666
+<font size="28">FrameCnt: 140, DiffTime: 33ms
+[latitude: 31.7674992] [longitude: 35.2137930] [rel_alt: 59.626 abs_alt: 109.626] [gb_yaw: 356.9 gb_pitch: -33.4 gb_roll: 0.0] </font>
+
+141
+00:00:04,667 --> 00:00:04,700
+<font size="28">FrameCnt: 141, DiffTime: 33ms
+[latitude: 31.7674978] [longitude: 35.2137944] [rel_alt: 59.734 abs_alt: 109.734] [gb_yaw: 357.0 gb_pitch: -33.6 gb_roll: 0.0] </font>
+
+142
+00:00:04,700 --> 00:00:04,733
+<font size="28">FrameCnt: 142, DiffTime: 33ms
+[latitude: 31.7674993] [longitude: 35.2138002] [rel_alt: 59.745 abs_alt: 109.745] [gb_yaw: 356.8 gb_pitch: -33.8 gb_roll: 0.0] </font>
+
+143
+00:00:04,733 --> 00:00:04,766
+<font size="28">FrameCnt: 143, DiffTime: 33ms
+[latitude: 31.7674965] [longitude: 35.2137875] [rel_alt: 59.796 abs_alt: 109.796] [gb_yaw: 356.5 gb_pitch: -33.7 gb_roll: -0.0] </font>
+
+144
+00:00:04,767 --> 00:00:04,800
+<font size="28">FrameCnt: 144, DiffTime: 33ms
+[latitude: 31.7674899] [longitude: 35.2138003] [rel_alt: 59.662 abs_alt: 109.662] [gb_yaw: 356.2 gb_pitch: -33.6 gb_roll: -0.1] </font>
+
+145
+00:00:04,800 --> 00:00:04,833
+<font size="28">FrameCnt: 145, DiffTime: 33ms
+[latitude: 31.7674993] [longitude: 35.2137969] [rel_alt: 59.661 abs_alt: 109.661] [gb_yaw: 356.0 gb_pitch: -33.9 gb_roll: -0.1] </font>
+
+146
+00:00:04,833 --> 00:00:04,866
+<font size="28">FrameCnt: 146, DiffTime: 33ms
+[latitude: 31.7674984] [longitude: 35.2137999] [rel_alt: 59.795 abs_alt: 109.795] [gb_yaw: 355.9 gb_pitch: -33.4 gb_roll: -0.1] </font>
+
+147
+00:00:04,867 --> 00:00:04,900
+<font size="28">FrameCnt: 147, DiffTime: 33ms
+[latitude: 31.7674961] [longitude: 35.2138023] [rel_alt: 59.881 abs_alt: 109.881] [gb_yaw: 356.1 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+148
+00:00:04,900 --> 00:00:04,933
+<font size="28">FrameCnt: 148, DiffTime: 33ms
+[latitude: 31.7675032] [longitude: 35.2138033] [rel_alt: 59.899 abs_alt: 109.899] [gb_yaw: 356.0 gb_pitch: -33.6 gb_roll: -0.0] </font>
+
+149
+00:00:04,933 --> 00:00:04,966
+<font size="28">FrameCnt: 149, DiffTime: 33ms
+[latitude: 31.7674960] [longitude: 35.2138072] [rel_alt: 59.826 abs_alt: 109.826] [gb_yaw: 355.9 gb_pitch: -33.9 gb_roll: -0.0] </font>
+
+150
+00:00:04,967 --> 00:00:05,000
+<font size="28">FrameCnt: 150, DiffTime: 33ms
+[latitude: 31.7674991] [longitude: 35.2138109] [rel_alt: 59.760 abs_alt: 109.760] [gb_yaw: 355.6 gb_pitch: -33.6 gb_roll: -0.0] </font>
