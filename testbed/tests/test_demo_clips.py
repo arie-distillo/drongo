@@ -186,3 +186,17 @@ def test_buildings_and_trees_are_drawn_in_3d_where_geometry_says():
         assert out[vw, uw, 0] > out[vw, uw, 2] + 40                                    # blue wall / not red roof
         ut, vt = g.en_to_pixel([[-15.0, -5.0]], h_m=6.0)[0].round().astype(int)
         assert out[vt, ut, 1] > out[vt, ut, 0] + 30                                    # green crown at its height
+
+
+@pytest.mark.slow
+def test_run_all_compares_demo_telemetry_with_truth(tmp_path):
+    from testbed.run_all import demo_clips, telemetry_vs_truth
+    demo_main(["--terrain", "urban", "--flight", "orbit", "--duration-s", "1", "--size", "320x180",
+               "--terrain-res-m", "0.4", "--terrain-half-m", "120", "--noise", "none", "--out", str(tmp_path)])
+    found = demo_clips(tmp_path)
+    assert [c[0] for c in found] == ["urban_orbit (srt)", "urban_orbit (embedded)"]
+    for _, video, truth in found:
+        r = telemetry_vs_truth(video, truth)
+        assert r["ok"] and r["samples"] == r["truth_frames"] == 30
+        assert r["horiz_m_p95"] < 0.05 and r["alt_m_median"] < 0.01      # noise-free: only format rounding
+        assert abs(r["yaw_deg_mean"]) < 0.06 and r["pitch_deg_median"] < 0.06

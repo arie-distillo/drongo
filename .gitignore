@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
+*.pyc
 *.egg-info/
 build/
 dist/
@@ -27,3 +28,6 @@ ortho.png
 Thumbs.db
 .vscode/
 .idea/
+!/testbed/synth/
+!/testbed/synth/**
+/testbed/synth/__pycache__/

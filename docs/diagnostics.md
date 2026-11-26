@@ -70,9 +70,24 @@ should stay fixed to the ground from frame to frame.
 python -m testbed.run_all --clip "flight1.mov:mavic3_wide" --clip "flight2.mp4:equiv_24mm" -- --gap 10 --stride 6
 ```
 
-Runs the test suite, renders a synthetic clip with a known 160 ms clock offset and checks that the
-diagnostics find it, then reports on each clip. `reports/index.html` has one line per clip with a
-verdict ("consistent" or "telemetry does not match video") and a link to its report.
+Runs the test suite, renders a synthetic clip (a slalom over the 3D urban demo terrain) with a
+known 160 ms clock offset and checks that the diagnostics find it, then reports on each clip.
+`reports/index.html` has one line per clip with a verdict ("consistent" or "telemetry does not
+match video") and a link to its report.
+
+To include demo clips (see [testing](testing.md#demo-clips)):
+
+```bash
+python -m testbed.synth.demo --all --out demo_clips
+python -m testbed.run_all --demo-dir demo_clips
+```
+
+Every clip in `demo_clips/srt/` and `demo_clips/embedded/` is checked like a real clip, with the
+camera preset it was rendered with and pairs 12 frames apart (orbits and surveys move too little
+in the default 3 frames for the verdict; options after `--` replace this). For synthetic clips the report also compares the recorded
+telemetry with the exact poses in `truth/`: position, altitude, yaw (mean and spread, next to
+the injected compass bias) and pitch errors, and the injected clock offset. These errors include
+the effect of that offset, since telemetry then describes where the drone was earlier.
 
 ## A clip with known answers
 
