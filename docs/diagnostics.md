@@ -89,6 +89,27 @@ telemetry with the exact poses in `truth/`: position, altitude, yaw (mean and sp
 the injected compass bias) and pitch errors, and the injected clock offset. These errors include
 the effect of that offset, since telemetry then describes where the drone was earlier.
 
+## Composite video
+
+```bash
+python -m testbed.harness.composite --video clip.mp4 --camera mini3pro --grid
+python -m testbed.harness.composite --video DJI_0042.MP4 --srt DJI_0042.SRT --camera mavic3_wide --offset-ms 120
+```
+
+Writes `<clip>_composite.mp4` (1920x1080 by default), every panel synchronised to the input frames:
+
+| Panel | Shows |
+|---|---|
+| Video | the input clip; `--grid` overlays a 10 m ground grid projected from the telemetry |
+| Map | north-up, in metres from the first position (no basemap): flight path with the flown part highlighted, the drone and its heading, view lines to the footprint corners, the current frame draped inside its footprint, and a mosaic of earlier frames (`--mosaic-every`, near part of each frame only) |
+| Plots | altitude, ground speed, gimbal pitch and yaw over the clip, with a cursor at the current frame |
+| Readout | time, position, altitude, speed, gimbal angles, centre GSD at the video's resolution, footprint area, a compass |
+
+The grid staying on the ground and the draped frames lining up with each other are a direct visual
+check of the telemetry, the camera model and the sync. `--start` / `--end` cut a section, and
+`--offset-ms` applies a sync correction (e.g. the best offset reported by `run_video`). Rendering
+runs at about 10 frames per second.
+
 ## A clip with known answers
 
 ```bash

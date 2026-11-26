@@ -200,3 +200,21 @@ def test_run_all_compares_demo_telemetry_with_truth(tmp_path):
         assert r["ok"] and r["samples"] == r["truth_frames"] == 30
         assert r["horiz_m_p95"] < 0.05 and r["alt_m_median"] < 0.01      # noise-free: only format rounding
         assert abs(r["yaw_deg_mean"]) < 0.06 and r["pitch_deg_median"] < 0.06
+
+
+@pytest.mark.slow
+@pytest.mark.parametrize("telemetry", ["srt", "embedded"])
+def test_composite_video_has_every_frame(tmp_path, telemetry):
+    from testbed.harness.composite import compose
+    demo_main(["--terrain", "nature", "--flight", "survey", "--duration-s", "1.5", "--size", "320x180",
+               "--terrain-res-m", "0.4", "--terrain-half-m", "120", "--telemetry", telemetry, "--out", str(tmp_path)])
+    src = tmp_path / telemetry / "nature_survey.mp4"
+    out = compose(src, CAM, tmp_path / "composite.mp4", size=(960, 540), progress=False)
+    cap = cv2.VideoCapture(str(out))
+    assert int(cap.get(cv2.CAP_PROP_FRAME_COUNT)) == 45
+    assert (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))) == (960, 540)
+    cap.set(cv2.CAP_PROP_POS_FRAMES, 40)
+    ok, f = cap.read()
+    assert ok
+    map_panel = f[30:360, 640:]                                       # draped frame + track on the map
+    assert map_panel.std() > 15

@@ -10,6 +10,8 @@ and the project uses [Semantic Versioning](https://semver.org/) (pre-1.0: minor 
   realistic survey / orbit / cruise / hover-pan flights, 3D buildings, trees and cars with sun
   shadows, colour rendering with sky and haze,
   H.264 output with an SRT sidecar or embedded DJI telemetry, and a ground-truth file per clip.
+- `testbed.harness.composite`: one video with the input clip, a synchronised map (track, footprint,
+  draped frames) and telemetry plots and readout, for any clip with telemetry.
 - `testbed.run_all --demo-dir`: checks every demo clip and compares its telemetry with the ground
   truth; the built-in synthetic clip is now rendered over the 3D urban terrain.
 - `testbed.synth.mp4meta.add_meta_track` / `embed_telemetry`: add a DJI metadata track to an

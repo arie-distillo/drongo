@@ -15,8 +15,9 @@ All of this is in the ground-truth poses the video is rendered from. Sensor
 errors (GPS noise, compass bias, clock offset) are applied afterwards by
 `TelemetryNoise`, exactly as for the analytic scenarios.
 
-Every profile is centred on the local-frame origin and stays within about
-150 m of it, so it fits the default terrain.
+Every profile stays within about 250 m of the local-frame origin and keeps
+its view mostly inside the default 600 m x 600 m terrain; beyond the terrain
+edge the renderer mirrors the ground.
 """
 from __future__ import annotations
 
@@ -167,7 +168,7 @@ def survey(camera: CameraModel = None, alt_m: float = 70.0, speed_ms: float = 8.
     return _assemble("survey", fps, pos, np.full(n, alt_m), crs, np.full(n, -90.0), crs, rng, wind)
 
 
-def orbit(radius_m: float = 90.0, alt_m: float = 60.0, speed_ms: float = 6.0, poi_en=(0.0, 0.0),
+def orbit(radius_m: float = 80.0, alt_m: float = 70.0, speed_ms: float = 6.0, poi_en=(0.0, 0.0),
           clockwise: bool = True, fps: float = 30.0, duration_s: float = 30.0, seed: int = 0,
           wind: float = 1.0) -> Scenario:
     """Point-of-interest orbit: the aircraft and camera face the centre, the
@@ -186,11 +187,13 @@ def orbit(radius_m: float = 90.0, alt_m: float = 60.0, speed_ms: float = 6.0, po
     return _assemble("orbit", fps, pos, np.full(n, alt_m), yaw, pitch, yaw, rng, wind)
 
 
-def cruise(speed_ms: float = 11.0, alt_start_m: float = 60.0, alt_end_m: float = 90.0,
-           pitch_start_deg: float = -70.0, pitch_end_deg: float = -25.0, fps: float = 30.0,
+def cruise(speed_ms: float = 11.0, alt_start_m: float = 60.0, alt_end_m: float = 85.0,
+           pitch_start_deg: float = -70.0, pitch_end_deg: float = -32.0, fps: float = 30.0,
            duration_s: float = 30.0, seed: int = 0, wind: float = 1.0) -> Scenario:
     """Cinematic forward flight on a gently curving course, climbing while
-    the camera tilts up from steep to shallow (a 'reveal')."""
+    the camera tilts up from steep to shallow (a 'reveal'). The flight ends
+    over the origin, so the final, farthest view looks across the terrain
+    rather than past its edge."""
     rng = np.random.default_rng(seed)
     heading0 = rng.uniform(0, 360)
     length = speed_ms * duration_s * 1.1
@@ -198,8 +201,8 @@ def cruise(speed_ms: float = 11.0, alt_start_m: float = 60.0, alt_end_m: float =
     psi = math.radians(heading0) + 0.5 * np.sin(2 * math.pi * s / (length * 0.8) + rng.uniform(0, 6.28))
     d = np.stack([np.sin(psi), np.cos(psi)], 1) * (s[1] - s[0])
     path = np.cumsum(d, 0)
-    path -= path[len(path) // 2]
     pos, crs, _ = plan_speed(path, fps, duration_s, speed_ms, a_lon=2.5, a_lat=3.0)
+    pos -= pos[-1]
     n = len(pos)
     u = _smoothstep(np.arange(n) / max(n - 1, 1) / 0.7)
     alt = alt_start_m + (alt_end_m - alt_start_m) * u

@@ -130,7 +130,9 @@ def main(argv=None) -> None:
     ap.add_argument("--offset-ms", type=int, default=0, help="telemetry clock offset to inject")
     ap.add_argument("--wind", type=float, default=1.0, help="wind / jitter scale; 0 = perfectly still")
     ap.add_argument("--seed", type=int, default=1)
-    ap.add_argument("--terrain-res-m", type=float, default=0.08)
+    ap.add_argument("--terrain-res-m", type=float, default=0.08, help="ground size of a texture pixel")
+    ap.add_argument("--terrain-half-m", type=float, default=300.0,
+                    help="terrain extends this far from the origin; memory grows with (half / res)^2")
     ap.add_argument("--crf", type=int, default=21, help="H.264 quality (lower = better, larger)")
     ap.add_argument("--out", type=Path, default=Path("demo_clips"))
     a = ap.parse_args(argv)
@@ -144,7 +146,7 @@ def main(argv=None) -> None:
 
     for terrain in terrains:
         print(f"terrain {terrain}: generating texture ...", flush=True)
-        tex = load_orthophoto(a.image) if a.image else TERRAINS[terrain](res_m=a.terrain_res_m, seed=a.seed)
+        tex = load_orthophoto(a.image) if a.image else TERRAINS[terrain](a.terrain_half_m, a.terrain_res_m, a.seed)
         mip = MipTexture(tex)
         del tex
         look = dataclasses.replace(LOOKS.get(terrain, Look()), seed=a.seed)
